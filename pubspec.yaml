@@ -1,0 +1,43 @@
+name: pokemon_final
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & State Management
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+
+  # Localization
+  easy_localization: ^3.0.7
+
+  # Networking
+  http: ^1.6.0
+
+  # Firebase
+  firebase_core: ^4.11.0
+  firebase_auth: ^6.5.4
+  google_sign_in: ^7.2.0
+
+  # Onboarding & Storage
+  introduction_screen: ^4.0.0
+  shared_preferences: ^2.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets - IMPORTANT: indentation is 2 spaces
+  assets:
+    - assets/translations/
